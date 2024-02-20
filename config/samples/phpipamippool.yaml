@@ -1,0 +1,11 @@
+apiVersion: ipam.cluster.x-k8s.io/v1alpha1
+kind: PHPIPAMIPPool
+metadata:
+  name: my-ipam-test
+spec:
+  subnetid: 7
+  credentials:
+    username: admin
+    password: "password"
+    app_id: capi123
+    endpoint: "http://127.0.0.1/api"
